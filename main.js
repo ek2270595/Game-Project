@@ -1,3 +1,7 @@
+//Everett //(DAEDA)
+//10//28//2018
+//WIP
+
 var canvas			= document.getElementById("canvas");
 var ctx				= canvas.getContext('2d');
 var backgroundImage = new Image();
@@ -11,6 +15,7 @@ backgroundImage.src = "dungeon.png";
 //music.play();
 
 var player = new Player();
+var player2 = new Player();
 var count = 0;
 var previousX = 0;
 var previousY = 0;
