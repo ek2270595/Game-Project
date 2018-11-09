@@ -21,11 +21,12 @@ var previousX = 0;
 var previousY = 0;
 
 var floor = new Array();
-floor.push(new Rectangle(194, 160, 28, 138));
-floor.push(new Rectangle(290, 160, 28, 138));
-floor.push(new Rectangle(368, 0, 144, 448));
-floor.push(new Triangle(68, 34, 124, 124));
-floor.push(new Triangle(68, 442, 124, -124))
+floor.push(new Rectangle(20, 510, 2, 236));
+floor.push(new Rectangle(298, 510, 2, 236));
+
+floor.push(new Rectangle(20, 510, 280, 2));
+floor.push(new Rectangle(172, 746, 128, 2));
+floor.push(new Rectangle(20, 746, 96, 2));
 
 for (var i = 0; i < floor.length; i++)
 	floor[i].color = new Color(255, 0, 255, 0.5);
