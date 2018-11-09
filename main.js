@@ -1,3 +1,4 @@
+//FARRIS
 //Everett //(DAEDA)
 //10//28//2018
 //WIP
@@ -15,7 +16,6 @@ backgroundImage.src = "dungeon.png";
 //music.play();
 
 var player = new Player();
-var player2 = new Player();
 var count = 0;
 var previousX = 0;
 var previousY = 0;
