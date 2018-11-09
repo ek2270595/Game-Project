@@ -12,7 +12,7 @@ var music           = document.getElementById("music");
 canvas.style.width	= canvas.width + "px";
 canvas.style.height	= canvas.height + "px";
 input.offset = new Vector2(GetLeft(canvas), GetTop(canvas));
-backgroundImage.src = "dungeon.png";
+backgroundImage.src = "maze.bmp";
 //music.play();
 
 var player = new Player();
