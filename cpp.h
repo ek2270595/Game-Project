@@ -1,4 +1,4 @@
-//SCORN'S ODYSSEY
+//SCORN
 //https://github.com/ek2270595
 //Created by: Everett "Daeda" Kirkingburg
 //Date: 11/11/2018
